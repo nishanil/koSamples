@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Modernizr-2.6.2" type="javaScript">
+    <properties>
+      <option name="frameworkName" value="Modernizr" />
+      <option name="frameworkVersion" value="2.6.2" />
+    </properties>
+    <CLASSES />
+    <DOCUMENTATION>
+      <root url="http://www.modernizr.com/docs" />
+    </DOCUMENTATION>
+    <SOURCES>
+      <root url="file://$USER_HOME$/Library/Caches/WebIde50/extLibs/http_www.modernizr.com_downloads_modernizr-2.6.2.js" />
+    </SOURCES>
+  </library>
+</component>

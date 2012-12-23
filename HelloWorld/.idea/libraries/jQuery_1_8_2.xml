@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="jQuery-1.8.2" type="javaScript">
+    <properties>
+      <option name="frameworkName" value="jQuery" />
+      <option name="frameworkVersion" value="1.8.2" />
+    </properties>
+    <CLASSES />
+    <DOCUMENTATION>
+      <root url="file://$USER_HOME$/Library/Caches/WebIde50/extLibs/http_api.jquery.com_api.xml" />
+      <root url="http://api.jquery.com" />
+    </DOCUMENTATION>
+    <SOURCES>
+      <root url="file://$USER_HOME$/Library/Caches/WebIde50/extLibs/http_code.jquery.com_jquery-1.8.2.js" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test App</title>
+<script src="scripts/jquery-1.8.3.min.js">
+
+</script>
+    <script src="scripts/knockout-2.2.0.js"></script>
+    <script type="text/javascript">
+        $(function()
+                {
+                var AppViewModel = function()
+                {
+                    this.firstName = ko.observable("James");
+                            this.lastName=ko.observable("Bond");
+                            this.fullName= ko.computed(function(){
+return this.firstName() + " " + this.lastName();
+                            }, this);
+
+                    this.onBClick = function()
+                    {
+                        alert('Hey you submitted record: ' + this.fullName());
+                    }
+
+                }
+                    ko.applyBindings(new AppViewModel());
+                }
+        )
+    </script>
+
+</head>
+<body>
+<p>
+    <span>First Name:</span> <input type="text" data-bind="value: firstName, valueUpdate: 'afterkeydown'"/>
+</p>
+<p>
+    <span>Last Name:</span> <input type="text" data-bind="value: lastName"/>
+</p>
+<p>
+    <span>Full Name:</span> <span data-bind="text: fullName"/>
+</p>
+<p>
+    <button data-bind="click: onBClick">Click</button>
+</p>
+</body>
+
+</html>
