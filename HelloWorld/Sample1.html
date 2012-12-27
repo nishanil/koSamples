@@ -4,12 +4,44 @@
     <title>Ko samples 1</title>
     <meta name="viewport" content="width=device-width" />
     <link href="Content/Site.css" rel="stylesheet" />
-    <script type="text/javascript" src="scripts/jquery-1.8.3.min.js"/>
-    <script type="text/javascript" src="scripts/knockout-2.2.0.js.js"/>
+    <script type="text/javascript" src="scripts/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="scripts/knockout-2.2.0.js"></script>
     <script type="text/javascript">
         $(function()
         {
-            //var
+            var AppViewModel = function()
+            {
+                var self = this;
+                self.firstName = ko.observable("Steve");
+                self.lastName = ko.observable("Jobs");
+                self.fullName = ko.computed(function(){
+                    return self.firstName() + " " + self.lastName();
+                }, this);
+                self.friends = ko.observableArray([
+                    { name: "Bill"}, {name: "Larry"}, {name: "Mark"}
+
+                ]);
+                self.newFriend = ko.observable("new");
+
+                self.addFriend = function()
+                {
+                    self.friends.push({name: self.newFriend()});
+                };
+
+                self.removeFriend = function()
+                {
+                    self.friends.remove(this);
+                }
+
+                self.showFriends = ko.observable(false);
+
+                self.showHideFriends = function()
+                {
+                    self.showFriends(!self.showFriends());
+                }
+
+            }
+            ko.applyBindings(new AppViewModel());
 
         })
     </script>
@@ -39,14 +71,29 @@
                 <h2></h2>
             </hgroup>
             <p>
-                Simple ones!
+                Simple demos!
             </p>
         </div>
     </section>
     <section class="content-wrapper main-content clear-fix">
         <h3>Full Name Example</h3>
-
-
+        <p>
+        First Name: <input type="text" data-bind="value: firstName, valueUpdate: 'afterkeydown'"/>
+    </p>
+        <p>Your First Name: <span data-bind="text: firstName"/> </p>
+        <p>
+            Last Name: <input type="text" data-bind="value: lastName, valueUpdate: 'afterkeydown'"/>
+        </p>
+        <p>Your Last Name: <span data-bind="text: lastName" /> </p>
+        <p>Your Full Name: <span data-bind="text: fullName"/>  </p>
+        <!--<p> Has <span data-bind="text: friends().length"></span> friends </p>-->
+        <p> Has <a href="#" data-bind="click: showHideFriends,  text: friends().length"></a> friends </p>
+        <div data-bind="visible: showFriends">
+            <ul data-bind="foreach: friends">
+                <li><span data-bind="text: name"></span> <a href="#" data-bind="click: $parent.removeFriend" >remove</a> </li>
+            </ul>
+            <input type="text" data-bind="value: newFriend"/> <button data-bind="click: addFriend">+</button>
+        </div>
     </section>
 </div>
 <footer>
