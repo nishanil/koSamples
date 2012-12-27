@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ignite UI Demo</title>
+    <meta name="viewport" content="width=device-width" />
+    <link href="Content/Site.css" rel="stylesheet" />
+    <script src="scripts/jquery-1.8.3.min.js"></script>
+    <script src="scripts/jquery-ui.min.js"></script>
+    <script src="scripts/modernizr.min.js"></script>
+    <script src="scripts/knockout-2.2.0.js"></script>
+    <!-- For this code to work Download and Install Ignite UI from www.igniteui.com -->
+    <script src="scripts/ig/infragistics.loader.js"></script>
+
+    <script type="text/javascript">
+        <!-- For this code to work Download and Install Ignite UI from www.igniteui.com -->
+        $.ig.loader(
+                {
+                    scriptPath: 'scripts/ig/',
+                    cssPath: 'Content/ig/',
+                    resources: "igGrid.*",
+                    theme: "Metro"
+
+                }
+        );
+
+        $.ig.loader(
+                function() {
+                    var data = [
+                        { "Name": "John Smith", "Age": 10},
+                        { "Name": "Mary Johnson", "Age": 20},
+                        { "Name": "Bob Freg", "Age": 30},
+                        { "Name": "John Smith", "Age": 10},
+                        { "Name": "Mary Johnson", "Age": 20},
+                        { "Name": "Bob Freg", "Age": 30},
+
+                        { "Name": "John Smith", "Age": 10},
+                        { "Name": "Mary Johnson", "Age": 20},
+                        { "Name": "Bob Freg", "Age": 30},
+
+                        { "Name": "John Smith", "Age": 10},
+                        { "Name": "Mary Johnson", "Age": 20},
+                        { "Name": "Bob Freg", "Age": 30},
+                        { "Name": "John Smith", "Age": 10},
+                        { "Name": "Mary Johnson", "Age": 20},
+                        { "Name": "Bob Freg", "Age": 30}
+
+
+
+                    ];
+
+                    $("#grid").igGrid(
+                            {
+                            width: 400,
+                            dataSource: data,
+                                features: [
+                                    {
+                                        name: "Paging",
+                                        type: "local",
+                                        pageSize:10
+                                    }
+                                        ,
+                                    {
+                                        name: "Sorting",
+                                        type: "local"
+
+                                    }
+                                ]
+                            }
+                    );
+                }
+        );
+    </script>
+</head>
+<body>
+<header>
+    <div class="content-wrapper">
+        <div class="float-left">
+            <p class="site-title">Ignite UI</p>
+        </div>
+        <div class="float-right">
+            <section id="login">
+            </section>
+            <nav>
+                <ul id="menu">
+                    <li><a href="Index.html">home</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>Getting Started with Ignite UI</h1>
+                <h2></h2>
+            </hgroup>
+            <p>
+                Simple demos!
+            </p>
+        </div>
+    </section>
+    <section class="content-wrapper main-content clear-fix">
+        <h3>Ignite UI Grid</h3>
+        <table id="grid"></table>
+
+    </section>
+</div>
+<footer>
+    <div class="content-wrapper">
+        <div class="float-left">
+            <p>&copy; <a href="http://twitter.com/nishanil">@nishanil on twitter</a></p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
