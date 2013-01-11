@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c49140ea-5588-4ee1-a942-72c11db38a6c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sample1.html" afterPath="$PROJECT_DIR$/Sample1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LiveSample.html" afterPath="$PROJECT_DIR$/LiveSample.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/igniteUIDemo.html" afterPath="$PROJECT_DIR$/igniteUIDemo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/igniteUIDemoLive.html" afterPath="$PROJECT_DIR$/igniteUIDemoLive.html" />
     </list>
     <ignored path="HelloWorld.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,19 +25,37 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="LiveSample.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LiveSample.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="20" selection-start="221" selection-end="221" vertical-scroll-proportion="-5.230769">
+            <state line="93" column="17" selection-start="3122" selection-end="3122" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sample1.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Sample1.html">
+      <file leaf-file-name="igniteUIDemo.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/igniteUIDemo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="30" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.635514">
+            <state line="72" column="38" selection-start="5035" selection-end="5035" vertical-scroll-proportion="0.80754715">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Data" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="2" selection-start="2635" selection-end="2635" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="igniteUIDemoLive.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/igniteUIDemoLive.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="22" selection-start="683" selection-end="683" vertical-scroll-proportion="-0.65384614">
               <folding />
             </state>
           </provider>
@@ -56,20 +76,27 @@
       </map>
     </option>
   </component>
+  <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/scripts/mySample.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/LiveSample.html" />
         <option value="$PROJECT_DIR$/Sample1.html" />
+        <option value="$PROJECT_DIR$/LiveSample.html" />
+        <option value="$PROJECT_DIR$/igniteUIDemoLive.html" />
+        <option value="$PROJECT_DIR$/igniteUIDemo.html" />
+        <option value="$PROJECT_DIR$/Data" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1366" />
-    <option name="width" value="960" />
-    <option name="height" value="1080" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -124,14 +151,14 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="137" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="166" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="160" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="160" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="168" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="834" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="842" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="834" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="160" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="159" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -152,8 +179,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\nanilkumar\Documents\GitHub\koSamples\HelloWorld" />
       <recent name="C:\Users\nanilkumar\Documents\GitHub\koSamples\HelloWorld\scripts" />
+      <recent name="C:\Users\nanilkumar\Documents\GitHub\koSamples\HelloWorld\Content\ig" />
+      <recent name="C:\Users\nanilkumar\Documents\GitHub\koSamples\HelloWorld\scripts\ig" />
       <recent name="C:\Users\nanilkumar\Documents\GitHub\koSamples\HelloWorld\Content" />
-      <recent name="$PROJECT_DIR$/scripts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/scripts" />
@@ -242,7 +270,23 @@
       <created>1356600821526</created>
       <updated>1356600821526</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="FullName example">
+      <created>1356623938693</created>
+      <updated>1356623938693</updated>
+    </task>
+    <task id="LOCAL-00007" summary="IgniteUI Sample">
+      <created>1356630109884</created>
+      <updated>1356630109884</updated>
+    </task>
+    <task id="LOCAL-00008" summary="IgniteUI Sample">
+      <created>1356630174236</created>
+      <updated>1356630174236</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added data">
+      <created>1357896836869</created>
+      <updated>1357896836869</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -266,13 +310,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="0" width="960" height="1080" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.4973939" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.49143708" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4848485" sideWeight="0.4973939" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25515744" sideWeight="0.6456522" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25515744" sideWeight="0.34673914" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1854058" sideWeight="0.95791245" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39730638" sideWeight="0.4944155" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.50335073" order="7" side_tool="true" content_ui="tabs" />
@@ -282,7 +327,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.49143708" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -323,7 +367,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added MVC Template" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added data" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -340,6 +384,9 @@
     <MESSAGE value="Fixed the valueUpdate bug" />
     <MESSAGE value="Added MVC Tempalte" />
     <MESSAGE value="Added MVC Template" />
+    <MESSAGE value="FullName example" />
+    <MESSAGE value="IgniteUI Sample" />
+    <MESSAGE value="Added data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -351,63 +398,6 @@
     <find-history />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="23" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="4" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="36" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="7" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/knockout-2.2.0.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/jquery-1.8.3.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/knockout-2.2.0.debug.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Content/themes/base/images/ui-bg_glass_75_dadada_1x400.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Content/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -423,30 +413,75 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Content/Site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webide.jar!/resources/html5-schema/common.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="23" selection-start="3271" selection-end="3271" vertical-scroll-proportion="-1.370826">
-          <folding />
-        </state>
+        <state line="123" column="23" selection-start="3271" selection-end="3271" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LiveSample.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="56" selection-start="542" selection-end="542" vertical-scroll-proportion="0.39719626">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="20" selection-start="221" selection-end="221" vertical-scroll-proportion="-5.230769">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/Content/themes/base/images/ui-bg_glass_65_ffffff_1x400.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sample1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="30" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.635514">
+        <state line="106" column="7" selection-start="3607" selection-end="3607" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/jquery-ui.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ig/extensions/infragistics.datasource.knockoutjs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="31" selection-start="335" selection-end="335" vertical-scroll-proportion="0.31288344" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/knockout-2.2.0.debug.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="22" selection-start="854" selection-end="854" vertical-scroll-proportion="-1.8485436" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/knockout-2.2.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LiveSample.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="17" selection-start="3122" selection-end="3122" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/igniteUIDemoLive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="22" selection-start="683" selection-end="683" vertical-scroll-proportion="-0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="2" selection-start="2635" selection-end="2635" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/igniteUIDemo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="38" selection-start="5035" selection-end="5035" vertical-scroll-proportion="0.80754715">
           <folding />
         </state>
       </provider>
