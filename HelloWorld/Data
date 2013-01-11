@@ -1,0 +1,22 @@
+var productData = [
+    { "ProductID": "1", "UnitsInStock": "100", "ProductDescription": "Laptop", "UnitPrice": "$ 1000" , "DateAdded": new Date() },
+    { "ProductID": "2", "UnitsInStock": "15", "ProductDescription": "Hamburger", "UnitPrice": "$ 10", "DateAdded": new Date() },
+    { "ProductID": "3", "UnitsInStock": "4356", "ProductDescription": "Beer", "UnitPrice": "$ 1000", "DateAdded": new Date() },
+    { "ProductID": "4", "UnitsInStock": "32", "ProductDescription": "mobile phone", "UnitPrice": "$ 1000", "DateAdded": new Date() },
+    { "ProductID": "5", "UnitsInStock": "65", "ProductDescription": "trainers", "UnitPrice": "$ 1000", "DateAdded": new Date() },
+    { "ProductID": "6", "UnitsInStock": "25", "ProductDescription": "coffee cup", "UnitPrice": "$ 1000", "DateAdded": new Date() },
+    { "ProductID": "7", "UnitsInStock": "98", "ProductDescription": "BMW 323 CI", "UnitPrice": "$ 1000", "DateAdded": new Date() },
+    { "ProductID": "8", "UnitsInStock": "998", "ProductDescription": "mouse", "UnitPrice": "$ 1000", "DateAdded": new Date() },
+    { "ProductID": "9", "UnitsInStock": "43", "ProductDescription": "keyboard", "UnitPrice": "$ 1000", "DateAdded": new Date() },
+    { "ProductID": "10", "UnitsInStock": "69", "ProductDescription": "fish", "UnitPrice": "$ 1000", "DateAdded": new Date() },
+    { "ProductID": "11", "UnitsInStock": "100", "ProductDescription": "Laptop", "UnitPrice": "$ 1000" , "DateAdded": new Date() },
+    { "ProductID": "12", "UnitsInStock": "15", "ProductDescription": "Hamburger", "UnitPrice": "$ 10", "DateAdded": new Date() },
+    { "ProductID": "13", "UnitsInStock": "4356", "ProductDescription": "Beer", "UnitPrice": "$ 1000", "DateAdded": new Date() },
+    { "ProductID": "14", "UnitsInStock": "32", "ProductDescription": "mobile phone", "UnitPrice": "$ 1000", "DateAdded": new Date() },
+    { "ProductID": "15", "UnitsInStock": "65", "ProductDescription": "trainers", "UnitPrice": "$ 1000", "DateAdded": new Date() },
+    { "ProductID": "16", "UnitsInStock": "25", "ProductDescription": "coffee cup", "UnitPrice": "$ 1000", "DateAdded": new Date() },
+    { "ProductID": "17", "UnitsInStock": "98", "ProductDescription": "BMW 323 CI", "UnitPrice": "$ 1000", "DateAdded": new Date() },
+    { "ProductID": "18", "UnitsInStock": "998", "ProductDescription": "BMW 323 CI", "UnitPrice": "$ 1000", "DateAdded": new Date() },
+    { "ProductID": "19", "UnitsInStock": "43", "ProductDescription": "keyboard", "UnitPrice": "$ 1000", "DateAdded": new Date() },
+    { "ProductID": "20", "UnitsInStock": "69", "ProductDescription": "fish", "UnitPrice": "$ 1000", "DateAdded": new Date() }
+];
